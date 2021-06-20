@@ -1,2 +1,6 @@
 #Tic-Tac-Toe - Automate the Boring Stuff
-print('Hello world')
+
+#Let's go!
+
+name = 'Brad'
+print(name)
