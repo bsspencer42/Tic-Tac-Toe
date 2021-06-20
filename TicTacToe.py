@@ -8,9 +8,16 @@ class box:
     #Method to calculate volume
     def get_volume(self):
         return self.length * self.width * self.height
+class sphere:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def get_volume(self):
+        return round((4/3)*math.pi**3,2)
 
 #Begin Program
 newBox = box(height = 5)
-print(newBox.length)
+newSphere = sphere(3)
+print(newSphere.get_volume())
 
 #This stuff isn't in the branch
