@@ -9,5 +9,3 @@ print(firstname + ' ' + lastname)
 #First change
 
 #Second change
-
-#Third change
