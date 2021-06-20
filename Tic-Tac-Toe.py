@@ -2,5 +2,6 @@
 
 #Let's go!
 
-name = 'Brad'
-print(name)
+firstname = 'Brad'
+lastname = 'Spencer'
+print(firstname + ' ' + lastname)
